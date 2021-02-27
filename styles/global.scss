@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .global-class {
   border: 10px solid;
+}
+
+@layer base {
+  a {
+    @apply underline;
+  }
 }
